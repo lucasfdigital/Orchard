@@ -19,9 +19,10 @@ git clone https://github.com/lucasfdigital/Orchard.git .agent
 
 | Componente | Qtd | Descrição |
 | :--- | :--- | :--- |
-| **Agentes** | 20+ | Personas especializadas (Frontend, Backend, Security, PM, QA, etc.) |
-| **Skills** | 30+ | Módulos de conhecimento profundo (Python, Node, Games, SEO, etc.) |
-| **Regras** | 1 | Protocolo mestre `GEMINI.md` para orquestração inteligente |
+| **Agentes** | 24 | Personas especializadas em diversas verticais. |
+| **Skills** | 37 | Módulos de conhecimento e padrões de indústria. |
+| **Workflows** | 11 | Comandos `/` automatizados para tarefas complexas. |
+| **Regras** | 1 | Protocolo mestre `GEMINI.md` para orquestração. |
 
 ---
 
@@ -30,48 +31,122 @@ git clone https://github.com/lucasfdigital/Orchard.git .agent
 Você não precisa decorar os comandos ou nomes dos agentes. O Orchard utiliza o protocolo de **Roteamento Inteligente** para detectar sua necessidade automaticamente.
 
 **Exemplo:**
-- **Você:** "Adicione autenticação JWT no meu backend"
-- **Orchard:** 🤖 *Aplicando conhecimento de `@security-auditor` + `@backend-specialist`...*
-
-**Benefícios:**
-- ✅ **Curva de aprendizado zero** - Apenas descreva o que precisa.
-- ✅ **Sempre o melhor especialista** - Respostas de nível sênior em cada área.
-- ✅ **Transparência total** - Veja exatamente qual agente está trabalhando para você.
+- **Você:** "Preciso configurar um pipeline de CI/CD para meu app Next.js"
+- **Orchard:** 🤖 *Aplicando conhecimento de `@devops-engineer` + `@frontend-specialist`...*
 
 ---
 
-## 🛠️ Agentes em Destaque
+## 👥 Agentes Especialistas
 
+O Orchard oferece um conselho completo dividido por áreas de atuação:
+
+### 🏗️ Coordenação e Estratégia
 | Agente | Especialidade |
 | :--- | :--- |
-| **`@frontend-specialist`** | Arquiteto de UI/UX e performance visual. |
-| **`@backend-specialist`** | Especialista em sistemas distribuídos e APIs. |
-| **`@security-auditor`** | Auditor de segurança e conformidade defensiva. |
-| **`@game-developer`** | Especialista em mecânicas e lógica de jogos. |
-| **`@revops-specialist`** | Especialista em crescimento e operações de receita. |
+| **`@orchestrator`** | Maestro do sistema. Coordena múltiplos agentes. |
+| **`@project-planner`** | Especialista em metodologia de 4 fases e roadmaps. |
+| **`@product-owner`** | Gestão de backlog, MVPs e histórias de usuário. |
+| **`@product-manager`** | Visão do produto e sucesso do usuário. |
+
+### 💻 Engenharia e Tech
+| Agente | Especialidade |
+| :--- | :--- |
+| **`@frontend-specialist`** | Especialista em React/Next.js e UI/UX. |
+| **`@backend-specialist`** | APIs, lógica de servidor e sistemas distribuídos. |
+| **`@mobile-developer`** | Desenvolvimento nativo (React Native/Flutter). |
+| **`@database-architect`** | Modelagem de dados, queries e performance. |
+| **`@game-developer`** | Mecânicas, física e motores de jogos. |
+| **`@devops-engineer`** | Infraestrutura, Docker, CI/CD e Cloud. |
+
+### ⚡ Qualidade e Performance
+| Agente | Especialidade |
+| :--- | :--- |
+| **`@debugger`** | Investigação sistemática de causas raízes e bugs. |
+| **`@test-engineer`** | Cobertura de testes (Unit, Integration, E2E). |
+| **`@performance-optimizer`** | Otimização de recursos e Core Web Vitals. |
+| **`@qa-automation-engineer`**| Automação de QA e pipelines de teste. |
+
+### 🛡️ Segurança (Red & Blue Team)
+| Agente | Especialidade |
+| :--- | :--- |
+| **`@security-auditor`** | Auditoria defensiva e conformidade de segurança. |
+| **`@penetration-tester`** | Segurança ofensiva, exploits e vulnerabilidades. |
+
+### 📈 Negócios e Marketing
+| Agente | Especialidade |
+| :--- | :--- |
+| **`@marketing-specialist`** | Conversão, ads e estratégias de crescimento. |
+| **`@creative-writer`** | Storytelling e criação de conteúdo de marca. |
+| **`@seo-specialist`** | SEO tradicional e GEO (AI Search Engine Optimization). |
+| **`@sales-ops`** | Operações de CRM, forecasts e eficiência de vendas. |
+| **`@revops-specialist`** | Alinhamento de Vendas, Marketing e Customer Success. |
+| **`@documentation-writer`**| Documentação técnica para humanos e IAs. |
+
+### 🔍 Pesquisa e Legado
+| Agente | Especialidade |
+| :--- | :--- |
+| **`@explorer-agent`** | Coleta de contexto em bases de código desconhecidas. |
+| **`@code-archaeologist`** | Análise de código legado e dívida técnica. |
 
 ---
 
-## 📦 Skills e Conhecimento
+## 📦 Skills e Conhecimento (Módulos)
 
-As Skills são carregadas automaticamente pelo Antigravity com base no contexto. O Orchard inclui guias avançados para:
-- **Game Development:** (2D, 3D, Multiplayer, VR/AR, Web Games)
-- **Engenharia:** (Clean Code, TDD, Software Architecture)
-- **Negócios:** (SEO, Marketing, Sales Ops, Revenue Ops)
+As Skills fornecem ao Antigravity padrões e diretrizes de nível sênior:
+
+**💻 Tech & Frameworks**
+- `nextjs-react-expert`: Padrões modernos de frontend.
+- `nodejs-best-practices`: Escalabilidade e segurança em Node.
+- `python-patterns`: Design patterns e async no Python.
+- `rust-pro`: Segurança de memória e performance.
+- `tailwind-patterns`: Estilização atômica e design systems.
+
+**🏗️ Arquitetura & Banco de Dados**
+- `api-patterns`: REST, GraphQL e documentação OpenAPI.
+- `database-design`: PostgreSQL, NoSQL e estratégias de índice.
+- `architecture`: Princípios de Clean Architecture e Microservices.
+
+**🕹️ Game Development**
+- `game-development`: Orquestrador mestre.
+- `2d-games` / `3d-games` / `multiplayer` / `vr-ar` / `web-games`.
+- `game-design` / `game-art` / `game-audio`.
+
+**🚀 DevOps & Produtividade**
+- `deployment-procedures`: Release management seguro.
+- `server-management`: Nix, Bash, Linux e monitoramento.
+- `powershell-windows`: Automação em ambiente Windows.
+- `testing-patterns`: TDD, BDD e pirâmide de testes.
+
+**📈 Marketing & SEO**
+- `seo-fundamentals`: E-E-A-T e Core Web Vitals.
+- `geo-fundamentals`: Otimização para mecanismos de Generative AI.
+- `i18n-localization`: Internacionalização e suporte RTL.
+
+---
+
+## ⚡ Workflows (Comandos /)
+
+Invoque automações complexas diretamente no chat:
+- `/plan`: Criação de roadmaps e quebra de tarefas.
+- `/debug`: Investigação sistemática de erros.
+- `/create`: Scaffold de novas aplicações e componentes.
+- `/ui-ux-pro-max`: Design de interfaces com foco em conversão.
+- `/test`: Geração automática de suítes de teste.
+- `/deploy`: Pipeline de lançamento em produção.
 
 ---
 
 ## ⚠️ Nota sobre o .gitignore
 
-Para garantir que o Antigravity e seu editor (Cursor/Windsurf) indexem corretamente as regras e agentes:
+Para que o Antigravity indexe corretamente o Orchard:
 1. Certifique-se de que a pasta `.agent/` **NÃO** esteja no seu `.gitignore`.
-2. Para que o Git não suba esses arquivos no seu repositório de código, adicione-os ao arquivo local: `.git/info/exclude`.
+2. Para ocultar os arquivos do seu commit de código pessoal, use: `.git/info/exclude`.
 
 ---
 
 ## 🤝 Contribuição
 
-O Orchard é um ecossistema vivo e comunitário. Cultive conosco adicionando novos agentes ou refinando as skills existentes.
+O Orchard é um ecossistema comunitário. Cultive conosco!
 
 ---
 *Cultivando inovação no projeto Orchard. Licença MIT.*
