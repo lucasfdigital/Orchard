@@ -11,7 +11,7 @@ O Orchard é um ecossistema de elite para o **Antigravity**, fornecendo um "cons
 Abra o PowerShell na raiz do seu projeto e cole o comando abaixo para instalar o ecossistema completo na sua pasta `.agent`:
 
 ```powershell
-git clone https://github.com/SEU_USUARIO/orchard.git .agent
+git clone https://github.com/lucasfdigital/Orchard.git .agent
 ```
 
 ---
