@@ -19,9 +19,9 @@ git clone https://github.com/lucasfdigital/Orchard.git .agent
 
 | Componente | Qtd | Descrição |
 | :--- | :--- | :--- |
-| **Agentes** | 24 | Personas especializadas em diversas verticais. |
-| **Skills** | 37 | Módulos de conhecimento e padrões de indústria. |
-| **Workflows** | 11 | Comandos `/` automatizados para tarefas complexas. |
+| **Agentes** | 27 | Personas especializadas em diversas verticais. |
+| **Skills** | 40 | Módulos de conhecimento e padrões de indústria. |
+| **Workflows** | 13 | Comandos `/` automatizados para tarefas complexas. |
 | **Regras** | 1 | Protocolo mestre `GEMINI.md` para orquestração. |
 
 ---
@@ -53,8 +53,11 @@ O Orchard oferece um conselho completo dividido por áreas de atuação:
 | :--- | :--- |
 | **`@frontend-specialist`** | Especialista em React/Next.js e UI/UX. |
 | **`@backend-specialist`** | APIs, lógica de servidor e sistemas distribuídos. |
+| **`@ai-application-engineer`**| Integração de LLMs, RAG e Agentes inteligentes. |
+| **`@cloud-native-architect`**| Infraestrutura, K8s, Multi-cloud e GitOps. |
 | **`@mobile-developer`** | Desenvolvimento nativo (React Native/Flutter). |
 | **`@database-architect`** | Modelagem de dados, queries e performance. |
+| **`@data-engineer`** | Modern Data Stack (Polars, DuckDB, dbt) e Pipelines. |
 | **`@game-developer`** | Mecânicas, física e motores de jogos. |
 | **`@devops-engineer`** | Infraestrutura, Docker, CI/CD e Cloud. |
 
@@ -100,10 +103,12 @@ As Skills fornecem ao Antigravity padrões e diretrizes de nível sênior:
 - `python-patterns`: Design patterns e async no Python.
 - `rust-pro`: Segurança de memória e performance.
 - `tailwind-patterns`: Estilização atômica e design systems.
+- `mcp-protocol-expert`: Integração universal via Model Context Protocol.
 
 **🏗️ Arquitetura & Banco de Dados**
 - `api-patterns`: REST, GraphQL e documentação OpenAPI.
 - `database-design`: PostgreSQL, NoSQL e estratégias de índice.
+- `iac-patterns`: Infraestrutura como Código (Terraform, Pulumi).
 - `architecture`: Princípios de Clean Architecture e Microservices.
 
 **🕹️ Game Development**
@@ -116,6 +121,7 @@ As Skills fornecem ao Antigravity padrões e diretrizes de nível sênior:
 - `server-management`: Nix, Bash, Linux e monitoramento.
 - `powershell-windows`: Automação em ambiente Windows.
 - `testing-patterns`: TDD, BDD e pirâmide de testes.
+- `data-pipelining-modern`: Modern Data Stack (Polars, DuckDB, dbt).
 
 **📈 Marketing & SEO**
 - `seo-fundamentals`: E-E-A-T e Core Web Vitals.
@@ -133,6 +139,8 @@ Invoque automações complexas diretamente no chat:
 - `/ui-ux-pro-max`: Design de interfaces com foco em conversão.
 - `/test`: Geração automática de suítes de teste.
 - `/deploy`: Pipeline de lançamento em produção.
+- `/audit`: Auditoria completa de saúde (Segurança, Lint, Perf).
+- `/refactor`: Limpeza sistemática de dívida técnica.
 
 ---
 
